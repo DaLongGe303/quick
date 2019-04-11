@@ -9,9 +9,7 @@ public class UserController {
     @RequestMapping("u")
     @ResponseBody
     public String select(){
-        
         System.out.println("---------3333-----");
-        
-        return "00000000000000000";
+        return "333333333";
     }
 }
